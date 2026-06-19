@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Audrey's Korean Cafe — Manga, Manhwa & Tteokbokki in Barrackpore</title>
+<meta name="description" content="A cozy Korean cafe in Barrackpore, Kolkata. Manga & manhwa lined walls, Japanese cheesecake, Korean fried chicken, tiramisu, butterbeer — your favorite chapter, served warm." />
+<meta property="og:title" content="Audrey's Korean Cafe — 오드리 카페" />
+<meta property="og:description" content="Korean comfort food + a wall of manga and manhwa. 4.5★ from 1,028 reviews. Open daily 'til 10pm in Barrackpore." />
+<meta property="og:image" content="assets/cafe-interior.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Gowun+Dodum&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<main>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="logo">
+        <span class="logo-dot">A</span>
+        <span class="logo-text">Audrey's <span class="kr cherry">오드리</span></span>
+      </a>
+      <nav class="nav-links">
+        <a href="#menu">Menu</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#story">Story</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <a href="tel:08100030700" class="btn btn-cherry">Reserve</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <div class="grid">
+      <div class="panel panel-lg hero-main">
+        <div class="halftone"></div>
+        <div class="hero-content">
+          <div class="badge">
+            <span class="dot"></span>
+            Barrackpore · 4.5★ · 1,028 reviews
+          </div>
+          <h1 class="display hero-title">
+            Audrey's<br/>
+            <span class="cherry">Korean</span><br/>
+            Cafe.
+          </h1>
+          <p class="lead">
+            A small room in Kolkata where the walls are stacked with manga &amp; manhwa,
+            cats nap between chapters, and the cheesecake jiggles back when you poke it.
+          </p>
+          <div class="hero-ctas">
+            <a href="#menu" class="btn btn-ink">See the menu →</a>
+            <a href="#visit" class="btn">Find us</a>
+          </div>
+        </div>
+        <div class="speech">
+          <div class="speech-bubble">어서 오세요!<span class="speech-tail"></span></div>
+        </div>
+      </div>
+
+      <div class="panel panel-lg hero-img">
+        <img src="assets/cafe-interior.jpg" alt="Inside Audrey's Korean Cafe — walls covered in manga and manhwa" />
+        <div class="tag-cozy">cozy ↑</div>
+      </div>
+
+      <div class="panel stat">
+        <div class="display stat-num cherry">4.5<span>★</span></div>
+        <div class="stat-label">1,028 Google reviews</div>
+      </div>
+      <div class="panel stat">
+        <div class="display stat-num">₹200<span>–</span>400</div>
+        <div class="stat-label">Per person · cozy</div>
+      </div>
+      <div class="panel hours">
+        <div>
+          <div class="display hours-title">Open today</div>
+          <div class="muted">Closes 10:00 pm</div>
+        </div>
+        <div class="chips">
+          <span class="chip sage">Dine-in</span>
+          <span class="chip mustard">Takeaway</span>
+          <span class="chip paper">Delivery</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <section class="marquee">
+    <div class="marquee-track" id="marquee"></div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="section">
+    <div class="section-head">
+      <div>
+        <div class="kr cherry small">인기 메뉴</div>
+        <h2 class="display huge">The hits.</h2>
+      </div>
+      <p class="muted max-sm">The most-loved chapters of our menu, as voted by everyone who's walked in and refused to leave.</p>
+    </div>
+    <div class="menu-grid" id="menu-grid"></div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="reviews">
+    <div class="reviews-inner">
+      <aside class="reviews-side">
+        <div class="kr mustard small">리뷰</div>
+        <h2 class="display huge light">Loved by <span class="cherry">1,028</span>.</h2>
+        <div class="panel rating-card">
+          <div class="rating-row">
+            <div class="display rating-num cherry">4.5</div>
+            <div class="display rating-of">/5</div>
+          </div>
+          <div class="stars" aria-label="5 out of 5">★★★★★</div>
+          <p class="rating-meta">Based on 1,028 Google reviews</p>
+          <a href="https://maps.app.goo.gl/AX2HRTnNEWohBGNWA" target="_blank" rel="noreferrer" class="btn btn-cherry small-btn">Write a review →</a>
+        </div>
+        <div class="keyword-chips" id="keyword-chips"></div>
+      </aside>
+      <div class="reviews-grid" id="reviews-grid"></div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section id="story" class="story">
+    <div class="kr cherry small">우리 이야기</div>
+    <h2 class="display story-title">A small corner of <span class="cherry">Seoul</span>,<br/> tucked into Barrackpore.</h2>
+    <p class="muted story-lead">
+      Audrey's started as a daydream — what if a cafe felt like the inside of your favorite chapter?
+      Warm light, butterbeer foam, the soft hum of K-indie, a few resident cats, and shelves full of
+      stories within arm's reach. We built it. You stayed. <span class="kr">감사합니다</span>.
+    </p>
+    <div class="story-grid" id="story-grid"></div>
+  </section>
+
+  <!-- VISIT -->
+  <section id="visit" class="section">
+    <div class="panel panel-lg visit">
+      <div class="visit-left">
+        <div class="kr cherry small">방문하다</div>
+        <h2 class="display visit-title">Come over.</h2>
+        <dl class="visit-dl">
+          <div><dt>Address</dt><dd>Q95C+33V, Barrackpore, Kolkata, West Bengal 700123</dd></div>
+          <div><dt>Hours</dt><dd>Open daily · closes 10:00 pm</dd></div>
+          <div><dt>Phone</dt><dd><a class="mono" href="tel:08100030700">081000 30700</a></dd></div>
+          <div><dt>Average</dt><dd>₹200 – 400 per person</dd></div>
+        </dl>
+        <div class="visit-ctas">
+          <a href="https://maps.app.goo.gl/AX2HRTnNEWohBGNWA" target="_blank" rel="noreferrer" class="btn btn-cherry">Get directions →</a>
+          <a href="tel:08100030700" class="btn">Reserve a table</a>
+        </div>
+      </div>
+      <div class="visit-right">
+        <div class="halftone"></div>
+        <div class="visit-right-inner">
+          <div class="kr small">오늘</div>
+          <div class="display visit-today">See you<br/>today?</div>
+          <div class="panel sub-card">
+            <div class="sub-label">House rules</div>
+            <ul>
+              <li>1. Handle the manga gently — they live here too.</li>
+              <li>2. Be kind to the cats. They run the place.</li>
+              <li>3. Spoilers in whisper-mode only. 🤫</li>
+            </ul>
+          </div>
+          <div class="panel sub-card">
+            <div class="sub-label">Order online</div>
+            <p>Available via your favorite delivery app. Search <b>"Audrey's Korean Cafe"</b>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="display foot-title">Audrey's <span class="kr cherry">오드리</span></div>
+        <p class="foot-sub">Korean cafe · Manga &amp; manhwa library · Barrackpore, Kolkata.</p>
+      </div>
+      <div class="foot-right">
+        <div>© <span id="year"></span> Audrey's Korean Cafe</div>
+        <div class="kr dim">또 만나요 — see you again</div>
+      </div>
+    </div>
+  </footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
